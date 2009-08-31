@@ -1,0 +1,12 @@
+[submodule "plugins/users"]
+	path = plugins/users
+	url = git@dev.showstudio.com:showstudio-users.git
+[submodule "plugins/core"]
+	path = plugins/core
+	url = git@dev.showstudio.com:showstudio-core.git
+[submodule "plugins/debug_kit"]
+	path = plugins/debug_kit
+	url = git@thechaw.com:debug_kit.git
+[submodule "plugins/articles"]
+	path = plugins/articles
+	url = git@dev.showstudio.com:showstudio-articles.git
