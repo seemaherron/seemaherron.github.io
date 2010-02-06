@@ -41,8 +41,8 @@
  *
  */
 
-$controllerPaths = array(APP . DS .'plugins' . DS . 'core' . DS . 'controllers/');
-$viewPaths = array('/home/paulherron/projects/seemaswaran/site/plugins/core/views/');
+$controllerPaths = array(APP . DS .'plugins' . DS . 'core' . DS . 'controllers' . DS);
+$viewPaths = array(APP . DS .'plugins' . DS . 'core' . DS . 'views' . DS);
 
 Configure::write('Site.title', 'Seema Swaran');
 
