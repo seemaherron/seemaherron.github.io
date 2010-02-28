@@ -24,8 +24,7 @@ Tags: blue, custom header, fixed width, two columns, widgets
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-	background: #d5d6d7 url('images/kubrickbgcolor.jpg');
-	color: #333;
+	background: #311f03;
 	text-align: center;
 	}
 
@@ -129,7 +128,7 @@ h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
 	}
 
 h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
-	color: #333;
+	color: #311f03;;
 	}
 
 h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
@@ -137,7 +136,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 .entry p a:visited {
-	color: #b85b5a;
+	color: #73d822;
 	}
 
 .sticky {
@@ -191,7 +190,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
-	color: #777;
+	color:#73d822;
 	}
 
 code {
@@ -205,12 +204,12 @@ acronym, abbr, span.caps
 	}
 
 a, h2 a:hover, h3 a:hover {
-	color: #06c;
+	color: #73d822;;
 	text-decoration: none;
 	}
 
 a:hover {
-	color: #147;
+	color: #73d822;;
 	text-decoration: underline;
 	}
 
