@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="Sweaty Betty"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	frameWidth="10"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="3"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="1000"
+	maxImageHeight="1500"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="images/"
+	
+>
+
+<image imageURL="images/seemaswaran_sweatybetty_img3.jpg" thumbURL="images/seemaswaran_sweatybetty_img3_th.jpg" linkURL="" linkTarget="" >
+</image>
+<image imageURL="images/seemaswaran_sweatybetty_img4.jpg" thumbURL="images/seemaswaran_sweatybetty_img4_th.jpg" linkURL="" linkTarget="" >
+</image>
+<image imageURL="images/seemaswaran_sweatybetty_img5.jpg" thumbURL="images/seemaswaran_sweatybetty_img5_th.jpg" linkURL="" linkTarget="" >	
+</image>
+<image imageURL="images/seemaswaran_sweatybetty_img6.jpg" thumbURL="images/seemaswaran_sweatybetty_img6_th.jpg" linkURL="" linkTarget="" >
+</image>
+<image imageURL="images/seemaswaran_sweatybetty_img7.jpg" thumbURL="images/seemaswaran_sweatybetty_img7_th.jpg" linkURL="" linkTarget="" >
+</image>
+<image imageURL="images/seemaswaran_sweatybetty_img8.jpg" thumbURL="images/seemaswaran_sweatybetty_img8_th.jpg" linkURL="" linkTarget="" >
+</image>
+<image imageURL="images/seemaswaran_sweatybetty_img9.jpg" thumbURL="images/seemaswaran_sweatybetty_img9_th.jpg" linkURL="" linkTarget="" >
+</image>
+	
+</simpleviewergallery>
