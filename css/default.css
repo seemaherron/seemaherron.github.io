@@ -115,7 +115,7 @@ a {
 	}
 	
 		#footer a img:hover {
-			padding-bottom: 4px;
+			margin-bottom: -4px;
 		}
 	
 
