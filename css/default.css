@@ -42,6 +42,7 @@ body {
 a {
 	color: #311f03;
 	text-decoration:none;
+	img-border:none;
 }
 
 	a:hover {
@@ -51,7 +52,9 @@ a {
 	a:visited {
 		color:#73d822;
 	}
-	
+	a img {
+		border: none;
+	}
 		
 		
 	
