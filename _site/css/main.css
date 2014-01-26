@@ -1,0 +1,83 @@
+/* Global Stuff */
+
+
+body {
+	font-family: Georgia, serif, helvetica, wingdings;
+	text-transform: lowercase;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+#container {
+	width: 400px;
+	text-align: left;
+	margin: 60px auto;
+	float: left;
+	margin-left: 300px;
+}
+
+#banner{
+	width: 1200px;
+	text-align: left;
+	margin: -80px auto 10px -300px ;
+	float: left;
+}
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #191919;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #65c1bf;
+}
+
+
+#about {
+	font-weight: normal;
+	font-size: 55px;
+	text-transform: lowercase;
+	margin-left: 69px;
+	padding-top: 0px;
+	padding-bottom: 13px;
+	border-bottom: 1px dashed #e1e1e1;
+	margin-bottom: 13px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+#work {
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: lowercase;
+	margin-left: 69px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #e1e1e1;
+	margin-bottom: 13px;
+}
+
+
+#text {
+    width: 500px;
+	font-size: 20px;
+	font-family: helvetica;
+	line-height: 19px;
+	margin-left: 65px;
+}
+
+
+#footer{
+	width: 400px;
+	text-align: left;
+	margin: 20px auto 80px 60px;
+	float: left;
+}
+
+#footer img{
+
+		margin: -5px 50px 5px 5px;
+	}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			{% if page.title != nil %}
+			{{ page.title }} – 
+			{% endif %}
+			{{ site.name }}
+		</title>
+
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+		<link href="/css/main.css" rel="stylesheet" type="text/css">
+
+		{% capture metaDescription %}{{ page.excerpt | default: site.description | strip_html }}{% endcapture %}
+		{% capture metaTitle %}{{ page.title | default: site.name }}{% endcapture %}
+		<meta name="description" content="{{ metaDescription }}" >
+		<link href="{{ site.image }}" rel="image_src" />
+
+		<meta property="og:title" content="{{ metaTitle }}" >
+		<meta property="og:description" content="{{ metaDescription }}" >
+		<meta property="og:image" content="{{ site.image }}" >
+		<meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}" >
+		<meta property="og:type" content="website" >
+
+		<meta property="twitter:title" content="{{ metaTitle }}" >
+		<meta property="twitter:description" content="{{ metaDescription }}" >
+		<meta property="twitter:card" content="summary_large_image" >
+		<meta property="twitter:image" content="{{ site.image }}" >
+		<meta name="keywords" content="Seema Swaran Web Manager London UK Online Ecommerce Retail"> 
+		<meta name="author" content="Seema Swaran">
+		<meta name="verify-v1" content="mqSLBzqNxGuLqBhkbTVT1Kf+9FkSt2vkQbQ2v1KES4s=" >
+	</head>
+	<body>
+		<div id="container">
+			<div id="content">
+				{{ content }}
+			</div>
+		</div>
+	</body>
+</html>

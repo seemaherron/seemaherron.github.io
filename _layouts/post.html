@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article>
+	<h1>{{ page.title }}</h1>
+	{{ content }}
+</article>
+
+<p class="back">
+	<a href="/">Back to homepage</a>
+</p>
+
+<p class="next">
+	{% if page.previous %}
+	<strong>Next:</strong> <a class="previous" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+	{% endif %}
+</p>

@@ -1,0 +1,8 @@
+name: "Hello. My name is Seema Swaran"
+description: "I am a Web Manager in London, specialising in online retail. I speak Web Development, Web Design, SEO, PPC &amp; Email Marketing"
+markdown: redcarpet
+pygments: true
+permalink: /blog/:title
+url: http://seemaswaran.com
+rss_name: blog.rss
+image: "http://seemaswaran.com/images/seema_swaran.jpg"
