@@ -1,8 +1,9 @@
 name: "Hello. My name is Seema Swaran"
 description: "I'm an Ecommerce and Web specialist in London, with solid experience in online retail. I speak Web Development, Web Design, SEO, PPC &amp; Email Marketing"
-markdown: redcarpet
 pygments: true
 permalink: /blog/:title
+productionUrl: http://seemaswaran.com
+baseUrl: /
 url: http://seemaswaran.com
 rss_name: blog.rss
 image: "http://seemaswaran.com/images/seema_swaran.jpg"
